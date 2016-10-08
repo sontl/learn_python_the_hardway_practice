@@ -1,15 +1,20 @@
-my_name = "Tran Lam Son"
-my_age = 30 # not a lie
-my_height = 74 # inches
-my_weight = 180 # lbs
-my_eyes = "Blue"
-my_teeth = "White"
-my_hair = "Black"
+# -*- coding: utf-8 -*-
+name = "Tran Lam Son"
+age = 30 # not a lie
+height = 74 # inches
+weight = 180 # lbs
+eyes = "Blue"
+teeth = "White"
+hair = "Black"
 
-print "Let's talk about %s.'" % my_name
-print "He's %d inches tall." % my_height
-print "He's %d pounds heavy." % my_weight
+print "Let's talk about %s.'" % name
+print "He's %d inches tall." % height
+print "He's %d pounds heavy." % weight
 print "Actually that's not too heavy" 
-print "He's got %s eyes and %s hair'" % (my_eyes, my_hair)
-print "His teeth are usually %s depending on the coffee." % my_teeth
+print "He's got %s eyes and %s hair'" % (eyes, hair)
+print "His teeth are usually %s depending on the coffee." % weight
 
+# this line is tricky, try to get it exactly right
+print "If I add %d, %d, and %d I get %d. Tuyệt vời" % (
+    age, height, weight, age + height + weight
+)
