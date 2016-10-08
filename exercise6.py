@@ -20,3 +20,4 @@ e = "a string with a right side."
 
 print w + e
 #try to update git
+#try update git in Visual Studio Code
